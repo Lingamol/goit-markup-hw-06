@@ -898,7 +898,8 @@ body {
   border-radius: 2px;
   background-color: transparent;
   margin-right: 7px;
-} */
+} 
+*/
 .agreement-checkbox:checked + .agreement-check-field .icon-checked {
   fill: var(--accent-color);
 }
