@@ -229,41 +229,7 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-/* .section-des-list-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.icon-antenna::before {
-  background-image: url(../images/svg/antenna\ 1.svg);
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-clock::before {
-  background-image: url(../images/svg/clock\ 1.svg);
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-diagram::before {
-  background-image: url(../images/svg/diagram\ 1.svg);
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-astronaut::before {
-  background-image: url(../images/svg/astronaut\ 1.svg);
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
+
 .section-des-list-item:last-child {
   margin-right: 0;
 }
@@ -327,9 +293,6 @@ body {
 
 .section-work-list-tumb {
   position: relative;
-  /* width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8); */
 }
 /* ------ section our_team------> */
 .section-team {
@@ -799,13 +762,12 @@ body {
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .form-input:hover,
-.modal-form-comment:hover, */
+
 .form-input:focus,
 .modal-form-comment:focus {
   border-color: var(--accent-color);
 }
-/* .form-input:hover + .icon, */
+
 .form-input:focus + .icon {
   fill: var(--accent-color);
 }
@@ -890,16 +852,7 @@ body {
   fill: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .agreement-check-field::before {
-  content: '';
-  width: 16px;
-  height: 15px;
-  border: 1px solid var(--main-header-color);
-  border-radius: 2px;
-  background-color: transparent;
-  margin-right: 7px;
-} 
-*/
+
 .agreement-checkbox:checked + .agreement-check-field .icon-checked {
   fill: var(--accent-color);
 }
